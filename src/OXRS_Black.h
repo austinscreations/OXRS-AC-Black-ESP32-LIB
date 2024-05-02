@@ -9,6 +9,9 @@
 #include <OXRS_API.h>                 // For REST API
 #include <OXRS_LCD.h>                 // For LCD runtime displays
 
+// LCD screen
+#define       OXRS_LCD_ENABLE
+
 // Ethernet
 #define       ETHERNET_CS_PIN             5
 #define       WIZNET_RESET_PIN            13
